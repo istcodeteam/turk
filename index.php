@@ -283,6 +283,18 @@
                                 <div class="swiper-lazy-preloader"></div>
                             </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="background-holder opacity-b opacity-b-50">
+                                <img loading="lazy" src="./dist/img/main-layout-bg-7-30.jpg" alt="background_image">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="background-holder opacity-b opacity-b-50">
+                                <img loading="lazy" src="./dist/img/main-layout-bg-7-31.jpg" alt="background_image">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="swiper-button swiper-button-prev"><img loading="lazy" src="./dist/img/icon-arrow-left-white.svg" alt="slider-arrow-icon"></div>
