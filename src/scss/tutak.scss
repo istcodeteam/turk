@@ -1,0 +1,61 @@
+@import "./shared/global.scss";
+
+.main-head{
+    .content-box{
+        margin: 0px auto;
+        max-width: 1344px;
+        width: calc( 100vw - 260px );
+    }
+}
+.resume-section{
+    padding: 120px 0px;
+    .text-box{
+        flex: 0 0 60%;
+        max-width: 60%;
+        padding-right: 50px;
+    }
+    .image-box{
+        flex: 0 0 40%;
+        max-width: 40%;
+        padding-left: 50px;
+        img{
+            height: auto;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+}
+
+@media screen and ( max-width: map-get( $grid-breakpoints, lg ) - 1 ){
+    .main-head{
+        .content-box{
+            width: calc( 100% - 160px );
+            max-width: calc( 100% - 160px );
+        }
+    }
+    .resume-section{
+        padding: 80px 0px;
+        .text-box{
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding-right: 0px;
+        }
+        .image-box{
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding-left: 0px;
+        }
+    }
+}
+
+@media screen and ( max-width: map-get( $grid-breakpoints, sm ) - 1 ){
+    .main-head{
+        .content-box{
+            width: calc( 100% - 32px );
+            max-width: calc( 100% - 32px );
+        }
+    }
+    .resume-section{
+        padding: 48px 0px;
+    }
+}

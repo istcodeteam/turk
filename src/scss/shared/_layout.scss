@@ -1,0 +1,65 @@
+body{
+    background-color: #333333;
+}
+
+.container{
+    width: 100%;
+    max-width: calc( 100vw - ( 130px * 2 ) );
+    @media screen and ( min-width: 1921px ) {
+        max-width: 1760px;
+    }
+    @media screen and ( max-width: 1200px ) {
+        max-width: calc( 100vw - ( 80px * 2 ) );
+    }
+    @media screen and ( max-width: map-get( $grid-breakpoints, sm ) - 1 ) {
+        padding-left: 16px!important;
+        padding-right: 16px!important;
+        max-width: 100%;
+    }
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+//grid loop
+@each $size, $value in $grid-breakpoints {
+    //displays (d-flex..)
+    @include displaySetter( $size, $value );
+    //alignments (align-items..)
+    @include alignmentSetter( $size, $value );
+    //spacers (mt-,pb-...)
+    @include paddingAndMarginSetter( $size, $value );
+    //order (order-..)
+    @include orderSetter( $size, $value );
+}
+
+.text-center{
+    text-align: center;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.text-nowrap{
+    white-space: nowrap;
+}
+.text-white{
+    color: #fff!important;
+}
+.text-gray{
+    color: #BFBFBF;
+}
+.h-100{
+    height: 100%!important;
+}
+.w-100{
+    width: 100%!important;
+}
+.mx-auto{margin-left: auto!important;margin-right: auto!important;}
+.my-auto{margin-top: auto!important;margin-bottom: auto!important;}
+.position-relative{ position: relative!important; }
+.position-absolute{ position: absolute!important; }
+
+.overflow-hidden{
+    overflow: hidden;
+}

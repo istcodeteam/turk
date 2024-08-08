@@ -1,0 +1,186 @@
+@import "./shared/global.scss";
+
+.main-head{
+    .content-box{
+        margin: 0px auto;
+        max-width: 1092px;
+        width: calc( 100vw - 260px );
+    }
+}
+.image-text-component{
+    padding: 60px 0px;
+    .item-box{
+        width: 100%;
+        max-width: 1115px;
+        padding: 60px 0px;
+        justify-content: flex-start;
+        &:nth-child(even){
+            align-self: flex-end;
+        }
+    }
+    .image-box{
+        flex: 0 0 463px;
+        width: 463px;
+        max-width: 100%;
+        position: relative;
+        img{
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+    .text-box{
+        flex: 0 0 calc( 100% - 463px - 64px );
+        max-width: calc( 588px + 64px );
+        padding-left: 64px;
+    }
+    .badge{
+        position: absolute;
+        left: unset;
+        right: 0px;
+        top: 40px;
+        max-width: 230px;
+        transform: translate( 50%, 0px );
+    }
+}
+.slider-component{
+    padding: 80px 0px 170px;
+    background-color: #2B2B2B;
+    .title{
+        margin-bottom: 10vh;
+    }
+    .swiper-holder{
+        padding: 0px calc( 48px + 48px );
+        max-width: calc( 100% - ( 120px * 2 ) );
+        width: 100%;
+        margin: 0px auto;
+        position: relative;
+        .swiper{
+            .swiper-slide{
+                img{
+                    max-width: 100%;
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+        .swiper-button{
+            &-prev{
+                left: 0px;
+            }
+            &-next{
+                right: 0px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 1920px ){
+    .slider-component{
+        .swiper-holder{
+            max-width: 1780px;
+        }
+    }
+}
+
+@media screen and ( max-width: 1200px ){
+    .slider-component{
+        padding: 60px 0px 120px;
+        .swiper-holder{
+            max-width: calc( 100% - ( 60px * 2 ) );
+        }
+    }
+}
+
+@media screen and ( max-width: map-get( $grid-breakpoints, lg ) - 1 ){
+    .main-head{
+        .content-box{
+            width: calc( 100% - 160px );
+            max-width: calc( 100% - 160px );
+        }
+    }
+    .image-text-component{
+        padding: 30px 0px;
+        .item-box{
+            padding: 30px 0px;
+            &:nth-child(odd){
+                .text-box{
+                    padding-left: 18px;
+                    padding-right: 0px;
+                }
+            }
+            &:nth-child(even){
+                justify-content: flex-end;
+                .text-box{
+                    padding-left: 0px;
+                    padding-right: 18px;
+                }
+                .badge{
+                    left: 0px;
+                    transform: translate( -50%, 0 );
+                }
+            }
+            .badge{
+                top: 55%;
+            }
+        }
+        .text-box{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .slider-component{
+        padding: 40px 0px 60px;
+        .title{
+            margin-bottom: 48px;
+        }
+        .swiper-holder{
+            padding: 0px;
+            max-width: calc( 100% - 16px );
+            margin-right: 0px!important;
+        }
+        .swiper-slide{
+            width: 305px;
+            max-width: 305px;
+        }
+    }
+}
+
+@media screen and ( max-width: 768px ){
+    .image-text-component{
+        .image-box{
+            max-width: 60%;
+        }
+        .item-box{
+            .badge{
+                max-width: 180px;
+            }
+            .badge-title{
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: map-get( $grid-breakpoints, sm ) - 1 ){
+    .main-head{
+        .content-box{
+            width: calc( 100% - 32px );
+            max-width: calc( 100% - 32px );
+        }
+    }
+    .image-text-component{
+        padding: 20px 0px;
+        .item-box{
+            padding: 20px 0px;
+        }
+        .image-box{
+            max-width: calc( 100% - 110px );
+        }
+    }
+    .slider-component{
+        padding: 32px 0px 48px;
+    }
+}

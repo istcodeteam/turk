@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'ArticulatCF';
+    src: url("../fonts/ArticulatCF-Light.otf") format("opentype");
+	font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ArticulatCF';
+    src: url("../fonts/ArticulatCF-Normal.otf") format("opentype");
+	font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ArticulatCF';
+    src: url("../fonts/ArticulatCF-Medium.otf") format("opentype");
+	font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ArticulatCF';
+    src: url("../fonts/ArticulatCF-DemiBold.otf") format("opentype");
+	font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ArticulatCF';
+    src: url("../fonts/ArticulatCF-Bold.otf") format("opentype");
+	font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Verlag';
+    src: url("../fonts/Verlag-Light.otf") format("opentype");
+	font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Verlag';
+    src: url("../fonts/Verlag-Book.otf") format("opentype");
+	font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Verlag';
+    src: url("../fonts/Verlag-Bold.otf") format("opentype");
+	font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+$text-breakpoint: 768px;
+
+@mixin sizeMaker( $fs, $lh, $mfs: 0, $mlh: 0, $text : "" ) {
+font-size: $fs #{ $text };
+	line-height: $lh #{ $text };
+	@if $mfs != 0 and $mlh != 0 {
+		@media screen and ( max-width: $text-breakpoint ) {
+			font-size: $mfs #{ $text };
+			line-height: $mlh #{ $text };
+		}
+	}
+}
+.l5{ letter-spacing:0.005em; }
+.l15{ letter-spacing:0.015em; }
+.l20{ letter-spacing:0.02em; }
+.l50{ letter-spacing:0.05em; }
+.ln10{ letter-spacing:-0.01em; }
+
+.font-300{ font-weight: 300; }
+.font-400{ font-weight: 400; }
+.font-500{ font-weight: 500; }
+.font-600{ font-weight: 600; }
+.font-700{ font-weight: 700; }
+
+.font-head{
+	font-family: 'Verlag';
+}
+.font-body{
+	font-family: 'ArticulatCF';
+}
+
+@mixin heading-1($text:""){ @include sizeMaker(48px,58px,18px,26px,$text:$text) }
+@mixin heading-1-1($text:""){ @include sizeMaker(48px,58px,24px,32px,$text:$text) }
+@mixin heading-2($text:""){ @include sizeMaker(40px,48px,16px,24px,$text:$text) }
+@mixin heading-2-1($text:""){ @include sizeMaker(40px,48px,24px,32px,$text:$text) }
+@mixin heading-3($text:""){ @include sizeMaker(32px,40px,18px,24px,$text:$text) }
+@mixin heading-3-1($text:""){ @include sizeMaker(32px,40px,24px,32px,$text:$text) }
+@mixin heading-4($text:""){ @include sizeMaker(24px,32px,16px,24px, $text:$text) }
+@mixin heading-5($text:""){ @include sizeMaker(20px,26px,14px,22px,$text:$text) }
+@mixin heading-5-1($text:""){ @include sizeMaker(20px,26px,20px,24px,$text:$text) }
+@mixin heading-6($text:""){ @include sizeMaker(18px,24px,16px,24px,$text:$text) }
+@mixin text-1($text:""){ @include sizeMaker(16px,24px,14px,22px,$text:$text) }
+@mixin text-1-1($text:""){ @include sizeMaker(16px,24px,14px,22px,$text:$text) }
+@mixin text-2($text:""){ @include sizeMaker(14px,20px,$text:$text) }
+@mixin text-3($text:""){ @include sizeMaker(12px,16px,$text:$text) }
+@mixin text-4($text:""){ @include sizeMaker(10px,16px,$text:$text) }
+
+.h1		{ @include heading-1( !important ) }
+.h11	{ @include heading-1-1( !important ) }
+.h2		{ @include heading-2( !important ) }
+.h21	{ @include heading-2-1( !important ) }
+.h3		{ @include heading-3( !important ) }
+.h31	{ @include heading-3-1( !important ) }
+.h4		{ @include heading-4( !important ) }
+.h5		{ @include heading-5( !important ) }
+.h51	{ @include heading-5-1( !important ) }
+.h6		{ @include heading-6( !important ) }
+.text-1	{ @include text-1( !important ) }
+.text-11{ @include text-1( !important ) }
+.text-2	{ @include text-2( !important ) }
+.text-3,small,.small{ @include text-3( !important ) }
+.text-4,.x-small{ @include text-4( !important ) }
+
+html,body{
+	color: #fff;
+	font-weight: 400;
+	font-family: 'ArticulatCF';
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Verlag';
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span,label,small{
+	margin: 0px;
+}
+a,p{
+	@include text-1();
+}
+p{
+	margin-bottom: 1rem;
+}

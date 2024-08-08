@@ -1,0 +1,74 @@
+@import "./shared/global.scss";
+
+.reservation-section{
+    position: relative;
+    min-height: 100vh;
+    padding: 180px 0px 120px;
+    .left-side{
+        flex: 0 0 42.5%;
+        max-width: 42.5%;
+        padding-left: 130px;
+        .image-holder{
+            margin-top: 6vh;
+            width: calc( 100% + 130px );
+            margin-left: -130px;
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+    .right-side{
+        flex: 0 0 52.5%;
+        max-width: 52.5%;
+        margin-left: 5%;
+        padding-right: 130px;
+    }
+}
+
+@media screen and ( min-width: 1921px ){
+    .reservation-section{
+        .left-side{
+            flex: 0 0 calc( 1920px * 0.425 );
+            max-width: calc( 1920px * 0.425 );
+            margin-left: calc( (( 100% - 1760px ) / 2) - 130px );
+        }
+        .right-side{
+            flex: 0 0 calc( 1920px * 0.525 );
+            max-width: calc( 1920px * 0.525 );
+            margin-left: calc( 1920px * 0.05 );
+            padding-right: 130px;
+        }
+    }
+}
+
+@media screen and ( max-width: map-get( $grid-breakpoints, lg ) - 1 ){
+    .reservation-section{
+        .left-side,.right-side{
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding-left: 16px;
+            padding-right: 16px;
+            margin: 0px;
+        }
+        .left-side{
+            .image-holder{
+                margin-top: 0px;
+                margin-bottom: 40px;
+                width: 100%;
+                margin-left: unset;
+            }
+        }
+    }
+}
+@media screen and ( max-width: map-get( $grid-breakpoints, sm ) - 1 ){
+    .reservation-section{
+        padding: 110px 0px 40px;
+        .btn{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+}

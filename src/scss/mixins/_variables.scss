@@ -1,0 +1,63 @@
+$grid-breakpoints: (
+    xs: 0px,
+    sm: 576px,
+    lg: 992px,
+    // xl: 1200px,
+    // xxl: 1400px,
+    // xxxl: 1800px,
+) !default;
+
+// $container-max-widths: (
+//     sm: 540px,
+//     md: 720px,
+//     lg: 912px,
+//     xl: 1120px,
+//     xxl: 1320px,
+//     xxxl: 1640px,
+// ) !default;
+
+$displays: (
+    block: block,
+    flex: flex,
+    none: none    
+)!default;
+
+$common-types: (
+    end: flex-end,
+    start: flex-start,
+    center: center,
+) !default;
+
+$items-types: (
+    stretch: stretch
+) !default;
+
+$content-types: (
+    around: space-around,
+    between: space-between,
+    evenly: space-evenly
+) !default;
+
+$directions: (
+    row: row,
+    column: column,
+    row-reverse: row-reverse,
+    column-reverse: column-reverse,
+) !default;
+
+$defaultSize: 1rem;
+
+$spacers: (
+    0: 0,
+    1: calc( #{ $defaultSize } / 4 ),
+    2: calc( #{ $defaultSize } / 2 ),
+    3: calc( #{ $defaultSize } ),
+    4: calc( #{ $defaultSize } * 1.25 ),
+    5: calc( #{ $defaultSize } * 1.5 ),
+    6: calc( #{ $defaultSize } * 1.75 ),
+    7: calc( #{ $defaultSize } * 2 ),
+    8: calc( #{ $defaultSize } * 3 )
+) !default;
+
+$items-types: map-merge($common-types, $items-types);
+$content-types: map-merge($common-types, $content-types);

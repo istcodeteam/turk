@@ -1,0 +1,99 @@
+@import "./variables";
+
+@mixin displaySetter($size, $value ) {
+    $rs: '';
+    @if($size !=xs) {
+        $rs: -#{$size};
+        @media screen and (min-width: #{ $value }) {
+            @include displaySetterInner($rs);
+        }
+    }@else{
+        @include displaySetterInner($rs);
+    }
+}
+@mixin displaySetterInner($rs) {
+    @each $dN, $dV in $displays {
+        .d#{$rs}-#{$dN} {
+            display: $dV !important;
+        }
+    }
+    .flex#{$rs}-wrap {
+        flex-wrap: wrap !important;
+    }
+    .flex#{$rs}-nowrap {
+        flex-wrap: nowrap !important;
+    }
+    @each $key, $dir in $directions {
+        .flex#{$rs}-#{$key} {
+            flex-direction: $dir !important;
+        }
+    }
+}
+
+@mixin alignmentSetter($size, $value ) {
+    $rs: '';
+    @if($size !=xs) {
+        $rs: -#{$size};
+        @media screen and (min-width: #{ $value }) {
+            @include alignmentSetterInner($rs)
+        }
+    }@else{
+        @include alignmentSetterInner($rs)
+    }
+}
+@mixin alignmentSetterInner($rs) {
+    @each $key, $type in $content-types {
+        .justify-content#{$rs}-#{ $key } {
+            justify-content: $type !important;
+        }
+        .align-content#{$rs}-#{ $key } {
+            align-content: $type !important;
+        }
+    }
+    @each $key, $type in $items-types {
+        .align-items#{$rs}-#{ $key } {
+            align-items: $type !important;
+        }
+    }
+}
+
+@mixin paddingAndMarginSetter($size,$value){
+    $rs: '';
+    @if($size !=xs) {
+        $rs: -#{$size};
+        @media screen and (min-width: #{ $value }) {
+            @include paddingAndMarginSetterInner($rs)
+        }
+    }@else{
+        @include paddingAndMarginSetterInner($rs)
+    }
+}
+@mixin paddingAndMarginSetterInner($rs){
+    @each $key, $size in $spacers{
+        .mt#{$rs}-#{ $key }{ margin-top: $size !important; }
+        .mb#{$rs}-#{ $key }{ margin-bottom: $size !important; }
+        .ml#{$rs}-#{ $key }{ margin-left: $size !important; }
+        .mr#{$rs}-#{ $key }{ margin-right: $size !important; }
+        .mx#{$rs}-#{ $key }{ margin-right: $size !important; margin-left: $size !important; }
+        .my#{$rs}-#{ $key }{ margin-top: $size !important; margin-bottom: $size !important; }
+        .pt#{$rs}-#{ $key }{ padding-top: $size !important; }
+        .pb#{$rs}-#{ $key }{ padding-bottom: $size !important; }
+        .pl#{$rs}-#{ $key }{ padding-left: $size !important; }
+        .pr#{$rs}-#{ $key }{ padding-right: $size !important; }
+        .px#{$rs}-#{ $key }{ padding-right: $size !important; padding-left: $size !important; }
+        .py#{$rs}-#{ $key }{ padding-top: $size !important; padding-bottom: $size !important; }
+    }
+}
+
+@mixin orderSetter( $size, $value ){
+    $rs: '';
+    @if( $size != xs ) { $rs: -#{$size}; }
+  
+    @media screen and ( min-width: #{ $value } ) {
+      @for $i from 0 through 20{
+        .order#{$rs}-#{$i}{
+            order: $i;
+        }
+      }
+    }
+  }
