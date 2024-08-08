@@ -249,37 +249,35 @@
             <div class="swiper-slide">
                 <div class="swiper image-swiper">
                     <div class="swiper-wrapper">
+
+
                       <div class="swiper-slide">
-                          <div class="content-box d-flex flex-column align-items-center justify-content-center h-100 py-6 py-lg-8">
-                              <p class="h3 mb-7 font-head l20">RESTAURANT</p>
-                              <div class="align-items-center d-flex flex-row flex-sm-nowrap flex-wrap justify-content-center">
-                                  <p class="h21 l20 mx-3 mx-sm-0 my-3">The Dining Room</p>
-                              </div>
-                          </div>
+                        <div class="content-box d-flex flex-column align-items-center justify-content-center h-100 py-6 py-lg-8">
+                            <p class="h3 mb-7 font-head l20">RESTAURANT</p>
+                            <div class="align-items-center d-flex flex-row flex-sm-nowrap flex-wrap justify-content-center">
+                                <p class="h21 l20 mb-0">Dining Room</p>
+                            </div>
+                            <p class="h21 l20 text-center mt-7">Chef Fatih Tutak invites 30 guests each night to indulge in a sophisticated culinary journey with an exclusive 13-course Micro Seasonal Tasting Menu, accompanied by delightful surprises.</p>
+                        </div>
                           <div class="background-holder opacity-b opacity-b-50">
                               <img loading="lazy" src="./dist/img/main-layout-bg-7-2.jpg" alt="background_image">
                               <div class="swiper-lazy-preloader"></div>
                           </div>
                       </div>
                       <div class="swiper-slide">
-                          <div class="content-box d-flex flex-column align-items-center justify-content-center h-100 py-6 py-lg-8">
-                              <p class="h3 mb-7 font-head l20">RESTAURANT</p>
-                              <div class="align-items-center d-flex flex-row flex-sm-nowrap flex-wrap justify-content-center">
-                              <p class="h21 l20 mx-3 mx-sm-0 my-3">Chef Table</p>
+                        <div class="content-box d-flex flex-column align-items-center justify-content-center h-100 py-6 py-lg-8">
+                            <p class="h3 mb-7 font-head l20">RESTAURANT</p>
+                            <div class="align-items-center d-flex flex-row flex-sm-nowrap flex-wrap justify-content-center">
+                                <p class="h21 l20 mb-0">Chef Table</p>
                             </div>
-                          </div>
+                            <p class="h21 l20 text-center mt-7">This exclusive option allows you to witness the culinary artistry of our kitchen team up close during your evening.</p>
+                        </div>
                           <div class="background-holder opacity-b opacity-b-50">
-                              <img loading="lazy" src="./dist/img/main-layout-bg-7-10.jpg" alt="background_image">
+                              <img loading="lazy" src="./dist/img/main-layout-bg-7-29.jpg" alt="background_image">
                               <div class="swiper-lazy-preloader"></div>
                           </div>
                       </div>
                         <div class="swiper-slide">
-                            <div class="content-box d-flex flex-column align-items-center justify-content-center h-100 py-6 py-lg-8">
-                                <p class="h3 mb-7 font-head l20">RESTAURANT</p>
-                                <div class="align-items-center d-flex flex-row flex-sm-nowrap flex-wrap justify-content-center">
-                                <p class="h21 l20 mx-3 mx-sm-0 my-3">Chef Table</p>
-                              </div>
-                            </div>
                             <div class="background-holder opacity-b opacity-b-50">
                                 <img loading="lazy" src="./dist/img/main-layout-bg-7-10.jpg" alt="background_image">
                                 <div class="swiper-lazy-preloader"></div>
