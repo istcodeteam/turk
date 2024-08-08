@@ -322,7 +322,7 @@
                       </div>
 
                         <div class="swiper-slide content-type-1">
-                      <div class="background-holder double-image opacity-b opacity-b-30">
+                      <div class="background-holder double-image opacity-b opacity-b-10">
                         <img loading="lazy" src="./dist/img/avlu-2.jpg" alt="background_image">
                         <img loading="lazy" src="./dist/img/avlu-3.jpg" alt="background_image">
                           <div class="swiper-lazy-preloader"></div>
@@ -330,7 +330,7 @@
                       </div>
 
                       <div class="swiper-slide content-type-1">
-                        <div class="background-holder opacity-b opacity-b-30">
+                        <div class="background-holder opacity-b opacity-b-10">
                             <img loading="lazy" src="./dist/img/avlu-4.jpg" alt="background_image">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
@@ -338,7 +338,7 @@
 
 
                     <div class="swiper-slide content-type-1">
-                      <div class="background-holder opacity-b opacity-b-30">
+                      <div class="background-holder opacity-b opacity-b-10">
                           <img loading="lazy" src="./dist/img/avlu-7.jpg" alt="background_image">
                           <div class="swiper-lazy-preloader"></div>
                       </div>
@@ -346,7 +346,7 @@
 
 
                   <div class="swiper-slide content-type-1">
-                    <div class="background-holder opacity-b opacity-b-30">
+                    <div class="background-holder opacity-b opacity-b-10">
                         <img loading="lazy" src="./dist/img/avlu-10.jpg" alt="background_image">
                         <div class="swiper-lazy-preloader"></div>
                     </div>
