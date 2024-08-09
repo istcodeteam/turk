@@ -76,7 +76,7 @@
             <div class="right-side">
                 <div class="d-flex flex-column">
                     <div class="d-flex flex-row justify-content-between align-items-center mb-6 mb-lg-0 mt-5">
-                        <p class="h3 font-500 l20 mb-lg-8 mb-0">OLIVE OIL</p>
+                        <p class="h3 font-500 l20 mb-lg-8 mb-0">OLIVE OIL (500ml)</p>
                         <p class="d-flex d-lg-none h31 font-500 l10 mb-0">₺1.100</p>
                     </div>
                     <div class="d-flex flex-column mb-8">
