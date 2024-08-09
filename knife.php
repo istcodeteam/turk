@@ -96,7 +96,7 @@
                     <!-- item exam -->
                     <div class="shop-item">
                         <div class="content-box d-flex flex-column justify-content-between">
-                            <p class="h5 font-500">HONEY</p>
+                            <p class="h5 font-500">HONEY (500grams)</p>
                             <div class="d-flex flex-row justify-content-between align-items-center">
                                 <p class="h31 font-500">₺1.600</p>
                                 <a href="https://iyzi.link/AJsSHA" target="_blank" class="add-card"><img src="./dist/img/icon-card-white.svg" alt="add-card"></a>
@@ -109,7 +109,7 @@
                     </div>
                     <div class="shop-item">
                         <div class="content-box d-flex flex-column justify-content-between">
-                            <p class="h5 font-500">OLIVE OIL</p>
+                            <p class="h5 font-500">OLIVE OIL (500ml)</p>
                             <div class="d-flex flex-row justify-content-between align-items-center">
                                 <p class="h31 font-500">₺1.100</p>
                                 <a href="https://iyzi.link/AJsSHw" target="_blank" class="add-card"><img src="./dist/img/icon-card-white.svg" alt="add-card"></a>
