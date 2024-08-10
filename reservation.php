@@ -67,12 +67,12 @@
                     <div id="accordion-item-8" class="accordion-item-body">
                         <div class="d-flex flex-column">
 <p class="h6 l5 text-gray">*Wine Pairing </p>
-<p class="h6 l5 text-gray">A carefully curated wine pairing is available to complement the flavours of each course of Chef’s  Tasting menu. The wine pairing includes seven distinct wines that highlight the diverse terroir of Turkey and its rich tapestry. Priced at 5800TL/per person.   </p>
+<p class="h6 l5 text-gray">A carefully curated wine pairing is available to complement the flavours of each course of Chef’s Tasting menu. The wine pairing includes seven distinct wines that highlight the diverse terroir of Turkey and its rich tapestry. Priced at 6500TL/per person.</p>
 <p class="h6 l5 text-gray">*Artisanal Pairing (No alcohol) </p>
-<p class="h6 l5 text-gray">A non-alcoholic Artisanal beverage pairing is also available to complement each course. This includes six non-alcoholic and homemade beverages created in harmony with the tasting menu. Priced at 2400 TL/per person. </p>
+<p class="h6 l5 text-gray">A non-alcoholic Artisanal beverage pairing is also available to complement each course. This includes six non-alcoholic and homemade beverages created in harmony with the tasting menu. Priced at 2900TL/per person.</p>
 <p class="h6 l5 text-gray">*Wine List & Signature Cocktails </p>
-<p class="h6 l5 text-gray">A wine list is available, including wine by the glass options. </p>
-<p class="h6 l5 text-gray">A creative selection of TURK signature cocktails is also available.  </p>
+<p class="h6 l5 text-gray">A wine list is available, including wine by the glass options.</p>
+<p class="h6 l5 text-gray">A creative selection of TURK signature cocktails is also available.</p>
               </div>
                     </div>
                 </div>
