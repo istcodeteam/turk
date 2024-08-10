@@ -51,7 +51,7 @@
                                     <img class="mx-2" src="./dist/img/icon-michelin-star-white.svg" loading="lazy" width="40" height="auto" alt="michelin-star-icom">
                                 </div>
                             </div>
-                            <a href="javascript:void(0);" class="btn btn-small d-flex d-lg-none">RESERVATION</a>
+                            <a href="./reservation" class="btn btn-small d-flex d-lg-none">RESERVATION</a>
                         </div>
                     </div>
                     <div class="video-holder">
