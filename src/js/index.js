@@ -1,4 +1,5 @@
 let timer = 10,menuStatus = true;
+let mainSwipers = {};
 
 window.passiveSupported = false;
 
@@ -39,19 +40,9 @@ function swiperEvents() {
 
     const mainPageSwiper = new Swiper("#mainpageSlider", {
         direction: "vertical",
-        slidesPerView: 'auto',
+        slidesPerView: 1,
         spaceBetween: 1,
-        // effect: "creative",
         speed: 800,
-        creativeEffect: {
-            prev: {
-                shadow: true,
-                translate: [0, "-20%", -1],
-            },
-            next: {
-                translate: [0, "100%", 0],
-            },
-        },
         scrollbar: {
             el: ".swiper-scrollbar",
         },
@@ -80,12 +71,9 @@ function swiperEvents() {
                             if( x.id && x.id === sl ) index = i;
 
                         } );
-
-                        console.log(index,sw);
                         
                         if( index >= 0 ) {
                             setTimeout(() => {
-                                console.log(index,sw);
                                 mainPageSwiper.slideTo(index);
                             }, 10);
                         }
@@ -95,10 +83,12 @@ function swiperEvents() {
                 }
 
             }
-            console.log( window.location.search.slice(1).split('&').filter( x => { if( x.split('=')[0] === "section" ) return x } ) );
 
         }
+
+        buildOtherSwipers()
     }
+
 
     mainPageSwiper.on('realIndexChange', (e) => {
         if( mainPageSwiper.activeIndex !== 0 ) {
@@ -106,53 +96,78 @@ function swiperEvents() {
         }else {
             document.body.classList.remove('scrolled');
         }
+        if( window.innerWidth < 992 && e.slides[ e.activeIndex ].querySelector('.image-swiper, .user-image-slider') ) {
+            const item = e.slides[ e.activeIndex ].querySelector('.image-swiper, .user-image-slider');
+            mainSwipers[item.id].enable();
+        }
     });
+
+    function buildOtherSwipers () {
+
+        [...document.getElementsByClassName('image-swiper')].forEach( ( item ) => {
+
+            const swiper = new Swiper( item, {
+                spaceBetween: 1,
+                speed: 900,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                }
+            });
+
+            if( document.getElementById('mainpageSlider') && window.innerWidth < 992 ) {
+                if( !item.hasAttribute('id') ) item.id = idGenerate('image-slider');
+                setTimeout(() => {
+                    swiper.disable();
+                }, 100);
+                mainSwipers[item.id] = swiper;
+            }
     
-    [...document.getElementsByClassName('image-swiper')].forEach( ( item ) => {
-
-        const swiper = new Swiper( item, {
-            spaceBetween: 1,
-            speed: 900,
-            loop: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-
-    } );
-
-    [...document.getElementsByClassName('user-image-slider')].forEach( ( item ) => {
-        const swiper = new Swiper( item, {
-            slidesPerView: 'auto',
-            spaceBetween: 16,
-            speed: 400,
-            loop: true,
-            breakpoints:{
-                998:{
-                   slidesPerView: 3,
-                   spaceBetween: 32,
+        } );
+    
+        [...document.getElementsByClassName('user-image-slider')].forEach( ( item ) => {
+            
+            const swiper = new Swiper( item, {
+                slidesPerView: 'auto',
+                spaceBetween: 16,
+                speed: 400,
+                loop: true,
+                breakpoints:{
+                    998:{
+                       slidesPerView: 3,
+                       spaceBetween: 32,
+                    },
+                    1366:{
+                       slidesPerView: 4,
+                       spaceBetween: 32,
+                    },
                 },
-                1366:{
-                   slidesPerView: 4,
-                   spaceBetween: 32,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
                 },
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                }
+            });
 
-    } );
+            if( document.getElementById('mainpageSlider') && window.innerWidth < 992 ) {
+                if( !item.hasAttribute('id') ) item.id = idGenerate('user-image-slider');
+                setTimeout(() => {
+                    swiper.disable();
+                }, 100);
+                mainSwipers[item.id] = swiper;
+            }
+    
+        } );
+
+    }
 
 }    
 
@@ -270,7 +285,9 @@ function initMap() {
         zoom: 16,
         center: myLatLng,
         styles: mapStyle,
-        disableDefaultUI: true
+        disableDefaultUI: true,
+        zoomControl: true,
+        gestureHandling: 'none'
     });
 
     // Özel görselle pin ekle
@@ -350,5 +367,36 @@ function initAccordions() {
         });
 
    } );
+
+   
+}
+
+function idGenerate ( text = "id" ) {
+
+    let id = '';
+
+    const check = ( id ) => {
+
+        return ( document.getElementById(id) === null );
+
+    }
+
+    const generate = ( _text ) => {
+
+        id = _text;
+
+        for (let i = 0; i < 5; i++) {
+            id += "-"+(Math.random() * 10000).toFixed(0);
+        }
+
+        if ( !check( id ) ) {
+
+            generate( _text ); 
+
+        } else { return id; }
+
+    }
+
+    return generate( text );
 
 }
