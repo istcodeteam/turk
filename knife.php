@@ -77,7 +77,7 @@
                 <div class="d-flex flex-column">
                     <div class="d-flex flex-row justify-content-between align-items-center mb-6 mb-lg-0 mt-5">
                         <p class="h3 font-500 l20 mb-lg-8 mb-0">KNIFE</p>
-                        <p class="d-flex d-lg-none h31 font-500 l10 mb-0">₺18.900</p>
+                        <p class="d-flex d-lg-none h31 font-500 l10 mb-0">₺25.000</p>
                     </div>
                     <div class="d-flex flex-column mb-8">
                         <p class="h51 font-500 l5 mb-5">Explanation</p>
