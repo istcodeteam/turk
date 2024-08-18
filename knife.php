@@ -52,7 +52,7 @@
                         <div class="swiper-slide">
                             <div class="w-100">
                                 <img src="./dist/img/shop-item-3.jpg" class="w-100" loading="lazy" alt="shop-item">
-                                <div class="swiper-lazy-preloader"></div>
+                                  <!--    <div class="swiper-lazy-preloader"></div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
