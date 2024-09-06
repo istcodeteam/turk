@@ -55,18 +55,7 @@
                               <!--    <div class="swiper-lazy-preloader"></div> -->
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="w-100">
-                                <img src="./dist/img/shop-item-2.jpg" class="w-100" loading="lazy" alt="shop-item">
-                                <div class="swiper-lazy-preloader"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="w-100">
-                                <img src="./dist/img/shop-item-2.jpg" class="w-100" loading="lazy" alt="shop-item">
-                                <div class="swiper-lazy-preloader"></div>
-                            </div>
-                        </div>
+                      
                     </div>
                     <div class="d-none d-lg-flex swiper-button swiper-button-prev"><img loading="lazy" src="./dist/img/icon-arrow-left-white.svg" alt="slider-arrow-icon"></div>
                     <div class="d-none d-lg-flex swiper-button swiper-button-next"><img loading="lazy" src="./dist/img/icon-arrow-right-white.svg" alt="slider-arrow-icon"></div>
