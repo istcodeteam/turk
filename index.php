@@ -420,7 +420,7 @@
     <script src="./src/js/index.min.js"></script>
     <!-- google api key -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8V5EiQwHChGlksPsnU3voS32Fz2gBDAk&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAku8SussV7TjBzDbKP_yv7Wpiu6klz36M&callback=initMap" async defer></script>
 
 </body>
 
