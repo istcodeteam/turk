@@ -132,10 +132,10 @@
                     <a href="javascript:void(0);" data-target="#accordion-item-7" class="accordion-item-head">Restaurant Concept(Slow Dining)</a>
                     <div id="accordion-item-7" class="accordion-item-body">
                         <div class="d-flex flex-column">
-                          <p class="h6 l5 text-gray">*Chef Signature Tasting Menu consists of 10 courses and other surprises (Slow Dining – please, allow 200 minutes for the duration of the experience).  </p>
-              <p class="h6 l5 text-gray">*À la carte options are not available.  </p>
-              <p class="h6 l5 text-gray">*Requests for faster experiences will not be accommodated, as Chef and his team ensure each dish is carefully curated before arriving at your table. The experience is curated to be enjoyed as slow dining.  </p>
-              <p class="h6 l5 text-gray">*Water, coffee and Tea are included in the tasting menu experience.  </p>
+                          <p class="h6 l5 text-gray">*Chef Signature Tasting Menu consists of 12 courses and other surprises (Slow Dining – please, allow 200 minutes for the duration of the experience).</p>
+              <p class="h6 l5 text-gray">*À la carte options are not available.  </p>
+              <p class="h6 l5 text-gray">*Requests for faster experiences will not be accommodated, as Chef and his team ensure each dish is carefully curated before arriving at your table. The experience is curated to be enjoyed as slow dining.</p>
+              <p class="h6 l5 text-gray">*Water, coffee and Tea are included in the tasting menu experience. </p>
                         </div>
                     </div>
                 </div>
