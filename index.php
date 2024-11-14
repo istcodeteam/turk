@@ -397,11 +397,19 @@
                                 </div>
                                 <div class="d-flex flex-row icon-list align-items-center my-3 my-lg-2">
                                     <img class="mr-lg-7 mr-6" src="./dist/img/icon-letter-circle.svg" loading="lazy" alt="pin-icon">
-                                    <a class="h5 l5 mb-0" href="mailto:">info@turkft.com</a>
+                                    <a class="h5 l5 mb-0" href="mailto:">Reservations: info@turkft.com</a>
                                 </div>
                                 <div class="d-flex flex-row icon-list align-items-center my-3 my-lg-2">
                                     <img class="mr-lg-7 mr-6" src="./dist/img/icon-instagram-circle.svg" loading="lazy" alt="pin-icon">
                                     <a href="https l5://www.instagram.com" class="h5 mb-0">turkfatihtutak</a>
+                                </div>
+                                <div class="d-flex flex-row icon-list align-items-center my-3 my-lg-2">
+                                    <img class="mr-lg-7 mr-6" src="./dist/img/icon-letter-circle.svg" loading="lazy" alt="pin-icon">
+                                    <a class="h5 l5 mb-0" href="mailto:">Media or PR related requests: mina.tomruk@turkft.com</a>
+                                </div>
+                                <div class="d-flex flex-row icon-list align-items-center my-3 my-lg-2">
+                                    <img class="mr-lg-7 mr-6" src="./dist/img/icon-letter-circle.svg" loading="lazy" alt="pin-icon">
+                                    <a class="h5 l5 mb-0" href="mailto:">Career: jobs@turkft.com</a>
                                 </div>
                             </div>
                         </div>

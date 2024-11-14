@@ -83,7 +83,7 @@
                     <a href="javascript:void(0);" data-target="#accordion-item-2" class="accordion-item-head">Dietary Adjustments Policy</a>
                     <div id="accordion-item-2" class="accordion-item-body">
                         <div class="d-flex flex-column">
-                          <p class="h6 l5 text-gray">*Due to daily micro seasonal changes, please do note we are not able to accommodate vegan, vegetarian diets, lactose intolerances, and gluten allergies (Celiac).</p>
+                          <p class="h6 l5 text-gray">*Due to daily micro seasonal changes, please do note we are not able to accommodate vegan, vegetarian diets, lactose intolerances, and gluten allergies (Celiac). Also note, our tasting menu emphasizes on seafood and fish produce, which we are unable to remove.</p>
                           <p class="h6 l5 text-gray">*Other adjustments related to special dietaries must be informed during the reservation or in advance to our Guest Relations team via info@turkft.com or via WhatsApp +90 530 051 83 04 for further confirmation.</p>
                         </div>
                     </div>
