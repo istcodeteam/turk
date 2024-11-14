@@ -401,7 +401,7 @@
                                 </div>
                                 <div class="d-flex flex-row icon-list align-items-center my-3 my-lg-2">
                                     <img class="mr-lg-7 mr-6" src="./dist/img/icon-instagram-circle.svg" loading="lazy" alt="pin-icon">
-                                    <a href="https l5://www.instagram.com" class="h5 mb-0">turkfatihtutak</a>
+                                    <a href="https://www.instagram.com/turkfatihtutak" target="_blank" class="h5 mb-0">turkfatihtutak</a>
                                 </div>
                                 <div class="d-flex flex-row icon-list align-items-center my-3 my-lg-2">
                                     <img class="mr-lg-7 mr-6" src="./dist/img/icon-letter-circle.svg" loading="lazy" alt="pin-icon">
