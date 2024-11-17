@@ -257,7 +257,7 @@
                             <div class="align-items-center d-flex flex-row flex-sm-nowrap flex-wrap justify-content-center">
                                 <p class="h21 l20 mb-0">Dining Room</p>
                             </div>
-                            <p class="h21 l20 text-center mt-7">Chef Fatih Tutak invites 30 guests each night to indulge in a sophisticated culinary journey with an exclusive 13-course Micro Seasonal Tasting Menu, accompanied by delightful surprises.</p>
+                            <p class="h21 l20 text-center mt-7">Chef Fatih Tutak invites 30 guests each night to indulge in a sophisticated culinary journey with an exclusive 12-course Micro Seasonal Tasting Menu, accompanied by delightful surprises.</p>
                         </div>
                           <div class="background-holder opacity-b opacity-b-50">
                               <img loading="lazy" src="./dist/img/main-layout-bg-7-2.jpg" alt="background_image">
@@ -365,7 +365,7 @@
             <div class="swiper-slide" id="reservation">
                 <div class="content-type-1 w-100 h-100">
                     <div class="d-flex flex-column h-100 align-items-center justify-content-center content-box">
-                        <p class="text-center l5 h3 mb-lg-5 mb-3">The Chef's Signature Tasting Menu consists of 13 steps and other surprises. (The experience lasts approximately 3 hours)</p>
+                        <p class="text-center l5 h3 mb-lg-5 mb-3">The Chef's Signature Tasting Menu consists of 12 steps and other surprises. (The experience lasts approximately 3 hours)</p>
                         <p class="text-center l5 h3 mb-lg-5 mb-3">À la carte options are not available.</p>
                         <p class="text-center l5 h3 mb-lg-5 mb-3">To ensure a seamless experience for all our guests, we allow group reservations of up to 5 people at a single table.</p>
                         <p class="text-center l5 h3 mb-lg-5 mb-3">Due to the daily use of micro-seasonal products in our menu, we are unable to remove ingredients like onions, garlic, milk, and dairy products from our dishes. Therefore, we do not offer vegan, vegetarian, or gluten-free (Celiac) menus.</p>
