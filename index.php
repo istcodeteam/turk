@@ -69,7 +69,7 @@
                 <div class="content-type-1 w-100 h-100">
                     <div class="d-flex flex-column h-100 align-items-center justify-content-center content-box">
                         <h2 class="text-center h3 heading mb-8 l20">OUR PHILOSOPHY</h2>
-                        <p class="text-center sub-head-text h2 l5">AS TURK, WE ARE SUPPOSED TO RESPECT AND PROTECT THE ROOTS AND THE TRADITIONS OF OUR CUISINE.</p>
+                        <p class="text-center sub-head-text h2 l5">AS TURK WE ARE DEDICATED TO RESPECT AND PROTECT THE ROOTS AND THE TRADITIONS OF OUR CUISINE.</p>
                     </div>
                     <div class="background-holder opacity-b opacity-b-30">
                         <img loading="lazy" src="./dist/img/main-layout-bg-1.jpg" alt="background_image">
