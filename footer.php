@@ -10,6 +10,6 @@
                     <a class="h5 footer-link font-300 l5" href="./index?section=gallery">GALLERY</a>
                     <a class="h5 footer-link font-300 l5" href="./shop">SHOP</a>
                 </div>
-                <p class="text-1 l5 mb-0 order-2 order-lg-3">© 2024 TURKS.</p>
+                <p class="text-1 l5 mb-0 order-2 order-lg-3">© 2025 TURKS.</p>
             </div>
         </div>

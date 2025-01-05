@@ -51,14 +51,8 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="w-100">
-                                <img src="./dist/img/shop-detail-image-1.jpg" class="w-100" loading="lazy" alt="shop-item">
+                                <img src="./dist/img/shop-item-1.jpg" class="w-100" loading="lazy" alt="shop-item">
                             <!--    <div class="swiper-lazy-preloader"></div> -->
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="w-100">
-                                <img src="./dist/img/shop-detail-image-2.jpg" class="w-100" loading="lazy" alt="shop-item">
-                                <div class="swiper-lazy-preloader"></div>
                             </div>
                         </div>
 
@@ -72,14 +66,14 @@
                 <div class="d-flex flex-column">
                     <div class="d-flex flex-row justify-content-between align-items-center mb-6 mb-lg-0 mt-5">
                         <p class="h3 font-500 l20 mb-lg-8 mb-0">HONEY (500grams)</p>
-                        <p class="d-flex d-lg-none h31 font-500 l10 mb-0">₺2.000</p>
+                        <p class="d-flex d-lg-none h31 font-500 l10 mb-0">₺1.900</p>
                     </div>
                     <div class="d-flex flex-column mb-8">
                         <p class="h51 font-500 l5 mb-5">Explanation</p>
                         <p class="text-gray l5">From the high altitudes and clean air of Erzincan to the tables of TURK, Karakovan honey... Each plate embodies the freshness and abundance of nature.</p>
                     </div>
                     <div class="d-flex flex-row justify-content-between align-items-center">
-                        <p class="d-none d-lg-flex h3 font-500 l10 mb-0">₺2.000</p>
+                        <p class="d-none d-lg-flex h3 font-500 l10 mb-0">₺1.900</p>
                         <a href="https://iyzi.link/AJsSHA" target="_blank" class="btn btn-small btn-brown px-8 d-flex flex-row align-items-center justify-content-center"><img class="mr-3" src="./dist/img/icon-card-white.svg" loading="lazy" alt=""> Buy Now</a>
                     </div>
                 </div>
@@ -93,7 +87,7 @@
                         <div class="content-box d-flex flex-column justify-content-between">
                             <p class="h5 font-500">KNIFE</p>
                             <div class="d-flex flex-row justify-content-between align-items-center">
-                                <p class="h31 font-500">₺25.000</p>
+                                <p class="h31 font-500">₺24.900</p>
                                 <a href="https://iyzi.link/AJsSHg" target="_blank" class="add-card"><img src="./dist/img/icon-card-white.svg" alt="add-card"></a>
                             </div>
                         </div>
@@ -106,7 +100,7 @@
                         <div class="content-box d-flex flex-column justify-content-between">
                             <p class="h5 font-500">OLIVE OIL (500ml)</p>
                             <div class="d-flex flex-row justify-content-between align-items-center">
-                                <p class="h31 font-500">₺1.500</p>
+                                <p class="h31 font-500">₺1.490</p>
                                 <a href="https://iyzi.link/AJsSHw" target="_blank" class="add-card"><img src="./dist/img/icon-card-white.svg" alt="add-card"></a>
                             </div>
                         </div>
