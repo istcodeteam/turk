@@ -51,7 +51,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="w-100">
-                                <img src="./dist/img/shop-item-3.jpg" class="w-100" loading="lazy" alt="shop-item">
+                                <img src="./dist/img/shop-item-33.jpg" class="w-100" loading="lazy" alt="shop-item">
                                   <!--    <div class="swiper-lazy-preloader"></div> -->
                             </div>
                         </div>
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                         <div class="background-holder opacity-b opacity-b-40">
-                            <img src="./dist/img/shop-item-1.jpg" loading="lazy" alt="add-card">
+                            <img src="./dist/img/shop-item-11.jpg" loading="lazy" alt="add-card">
                         </div>
                         <a href="./honey" class="item-link"></a>
                     </div>
@@ -116,7 +116,7 @@
                             </div>
                         </div>
                         <div class="background-holder opacity-b opacity-b-40">
-                            <img src="./dist/img/shop-item-2.jpg" loading="lazy" alt="add-card">
+                            <img src="./dist/img/shop-item-22.jpg" loading="lazy" alt="add-card">
                         </div>
                         <a href="./olive-oil" class="item-link"></a>
                     </div>
