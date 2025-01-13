@@ -50,9 +50,11 @@
                     <div id="accordion-item-1" class="accordion-item-body">
                         <div class="d-flex flex-column">
                             <p class="h6 l5 text-gray">To secure your booking and to ensure only freshly prepared ingredients are used for each course, a deposit of 4.900TL per person is required within 24 hours to confirm your booking. </p>
-                            <p class="h6 l5 text-gray">*TURK Fatih Tutak 12 course tasting menu experience is priced at 9.900TL/per guest.  </p>
+                            <p class="h6 l5 text-gray">*TURK Fatih Tutak 12 course tasting menu experience:</p>
+                            <p class="h6 l5 text-gray">Priced at 9.900TL/per guest until the end of January 2025.</p>
+                            <p class="h6 l5 text-gray">Priced at 10.900TL/per guest as of 1st of February 2025 onwards. </p>
                             <p class="h6 l5 text-gray">*All prices are inclusive of VAT. </p>
-                            <p class="h6 l5 text-gray">*A 12% additional service charge is added at the end of the experience to all food & beverage items.  </p>
+                            <p class="h6 l5 text-gray">*A 12% additional service charge is added at the end of the experience to all food & beverage items. </p>
                             <p class="h6 l5 text-gray">Kindly note that reservations are not confirmed until the booking form is submitted and you have received a confirmation email. To ensure a smooth experience for all our guests, a maximum of 5 people per booking are allowed on a single table. </p>
                         </div>
                     </div>
