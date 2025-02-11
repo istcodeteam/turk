@@ -38,7 +38,7 @@
         <div class="d-flex flex-row flex-wrap w-100 h-100">
             <div class="left-side d-flex flex-column align-items-start">
                 <h1 class="h11 font-500 l5 title mb-lg-8 mb-5 mb-sm-6">Reservation <br class="d-none d-lg-block"> Details</h1>
-                <a href="https://app.seatwise.co/turk-fatih-tutak/reservation" target="_blank" class="order-lg-2 order-3 btn btn-small d-flex flex-row align-items-center justify-content-between">Make Reservation <img class="ml-6 mlg-lg-8" src="./dist/img/icon-arrow-outward-white.svg" loading="lazy" width="24" height="24" alt=""></a>
+                <a href="https://app.seatwise.co/turk-fatih-tutak/reservation" target="_blank" class="order-lg-2 order-3 btn btn-small btn-reservation d-flex flex-row align-items-center justify-content-between">Make Reservation <img class="ml-6 mlg-lg-8" src="./dist/img/icon-arrow-outward-white.svg" loading="lazy" width="24" height="24" alt=""></a>
                 <div class="image-holder order-lg-3 order-2">
                     <img src="./dist/img/reservaiton-image.jpg" loading="lazy" alt="reservaiton-image">
                 </div>
@@ -50,7 +50,7 @@
                     <div id="accordion-item-1" class="accordion-item-body">
                         <div class="d-flex flex-column">
                             <p class="h6 l5 text-gray">To secure your booking and to ensure only freshly prepared ingredients are used for each course, a deposit of 4.900TL per person is required within 24 hours to confirm your booking. </p>
-                            <p class="h6 l5 text-gray">*TURK Fatih Tutak 12 course tasting menu experience:</p>
+                            <p class="h6 l5 text-gray">*TURK Fatih Tutak 14 course tasting menu experience:</p>
                             <p class="h6 l5 text-gray">Priced at 9.900TL/per guest until the end of January 2025.</p>
                             <p class="h6 l5 text-gray">Priced at 10.900TL/per guest as of 1st of February 2025 onwards. </p>
                             <p class="h6 l5 text-gray">*All prices are inclusive of VAT. </p>
@@ -137,7 +137,7 @@
                     <a href="javascript:void(0);" data-target="#accordion-item-7" class="accordion-item-head">Restaurant Concept(Slow Dining)</a>
                     <div id="accordion-item-7" class="accordion-item-body">
                         <div class="d-flex flex-column">
-                          <p class="h6 l5 text-gray">*Chef Signature Tasting Menu consists of 12 courses and other surprises (Slow Dining – please, allow 200 minutes for the duration of the experience).</p>
+                          <p class="h6 l5 text-gray">*Chef Signature Tasting Menu consists of 14 courses and other surprises (Slow Dining – please, allow 200 minutes for the duration of the experience).</p>
               <p class="h6 l5 text-gray">*À la carte options are not available.  </p>
               <p class="h6 l5 text-gray">*Requests for faster experiences will not be accommodated, as Chef and his team ensure each dish is carefully curated before arriving at your table. The experience is curated to be enjoyed as slow dining.</p>
               <p class="h6 l5 text-gray">*Water, coffee and Tea are included in the tasting menu experience. </p>

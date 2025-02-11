@@ -2163,6 +2163,12 @@ body {
   justify-content: space-between;
   overflow: hidden;
 }
+
+.btn-reservation {
+  border: 2px solid #fff !important;
+  font-weight: bold;
+}
+
 .menu-btn span {
   display: block;
   width: 36px;

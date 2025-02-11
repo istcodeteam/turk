@@ -11,7 +11,7 @@
         </a>
         <div class="d-flex flex-row align-items-center">
             <a href="https://www.instagram.com/turkfatihtutak/" target="_blank" class="mr-5 mb-0 icon-btn"><img src="./dist/img/icon-instagram-white.svg" loading="lazy" alt=""></a>
-            <a href="reservation" class="btn btn-small d-none d-lg-flex">RESERVATION</a>
+            <a href="reservation" class="btn btn-reservation btn-small d-none d-lg-flex">RESERVATION</a>
         </div>
     </div>
 </div>
