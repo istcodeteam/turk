@@ -393,7 +393,7 @@
                                 </div>
                                 <div class="d-flex flex-row icon-list align-items-center my-3 my-lg-2">
                                     <img class="mr-lg-7 mr-6" src="./dist/img/icon-phone-circle.svg" loading="lazy" alt="pin-icon">
-                                    <a class="h5 l5 mb-0" href="tel:+02127095679">(0212) 709 56 79</a>
+                                    <a class="h5 l5 mb-0" href="tel:+905300518304">+90 (530) 051 83 04</a>
                                 </div>
                                 <div class="d-flex flex-row icon-list align-items-center my-3 my-lg-2">
                                     <img class="mr-lg-7 mr-6" src="./dist/img/icon-letter-circle.svg" loading="lazy" alt="pin-icon">
