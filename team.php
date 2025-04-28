@@ -67,19 +67,7 @@
                       <p class="h6 l5">Embarking on a remarkable culinary journey that spans continents, he started as a waiter in London. In Bangkok, he met Chef Fatih Tutak, marking the start of their significant collaboration. Chef Ogün Koca's culinary odyssey is a testament to his dedication to excellence, his distinct approach to the art of cooking, and showcases a unique blend of Turkish heritage with global culinary influences.</p>
                     </div>
                 </div>
-                <!-- item loop example -->
-                <div class="item-box d-flex flex-row flex-wrap align-items-center">
-                    <div class="image-box">
-                      <img src="./dist/img/personel-image-1.jpg" loading="lazy" alt="personel-name">
-                      <div class="badge d-flex flex-column">
-                          <p class="h31 ln10 mb-3 text-center badge-title">Gonçalo Martins</p>
-                          <p class="l2 text-center">General Manager</p>
-                      </div>
-                    </div>
-                    <div class="text-box pt-lg-7 pt-6">
-                        <p class="h6 l5">Commencing his career at the age of 16 in Paris, he has garnered experience across diverse hospitality landscapes within France, Switzerland, Portugal, Hungary, Montenegro, the United Kingdom, Mauritius, and now Turkey. An early exposure to the industry ignited a meticulous attention to detail. Among his career highlights are the instrumental roles played in the pre-opening stages, concept development, and collaborations with esteemed Michelin-starred chefs.</p>
-                      </div>
-                </div>
+          
                 <div class="item-box d-flex flex-row flex-wrap align-items-center">
                     <div class="image-box">
                         <img src="./dist/img/personel-image-3.jpg" loading="lazy" alt="personel-name">
