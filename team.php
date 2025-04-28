@@ -67,7 +67,7 @@
                       <p class="h6 l5">Embarking on a remarkable culinary journey that spans continents, he started as a waiter in London. In Bangkok, he met Chef Fatih Tutak, marking the start of their significant collaboration. Chef Ogün Koca's culinary odyssey is a testament to his dedication to excellence, his distinct approach to the art of cooking, and showcases a unique blend of Turkish heritage with global culinary influences.</p>
                     </div>
                 </div>
-          
+
                 <div class="item-box d-flex flex-row flex-wrap align-items-center">
                     <div class="image-box">
                         <img src="./dist/img/personel-image-3.jpg" loading="lazy" alt="personel-name">
@@ -175,10 +175,6 @@
                     </div>
                     <div class="swiper-slide">
                         <img src="./dist/img/p-slider-18.jpg" loading="lazy" alt="">
-                        <div class="swiper-lazy-preloader"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./dist/img/p-slider-19.jpg" loading="lazy" alt="">
                         <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="swiper-slide">
