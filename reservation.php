@@ -49,9 +49,9 @@
                     <a href="javascript:void(0);" data-target="#accordion-item-1" class="accordion-item-head">Reservation & Pre-Payment Policy</a>
                     <div id="accordion-item-1" class="accordion-item-body">
                         <div class="d-flex flex-column">
-                            <p class="h6 l5 text-gray">To secure your booking and to ensure only freshly prepared ingredients are used for each course, a deposit of 4.900TL per person is required within 24 hours to confirm your booking. </p>
+                            <p class="h6 l5 text-gray">To secure your booking and to ensure only freshly prepared ingredients are used for each course, a deposit of 5.900TL per person is required within 24 hours to confirm your booking. </p>
                             <p class="h6 l5 text-gray">*TURK Fatih Tutak 14 course tasting menu experience:</p>
-                            <p class="h6 l5 text-gray">Priced at 10.900TL/per guest.</p>
+                            <p class="h6 l5 text-gray">Priced at 11.900TL/per guest.</p>
                             <p class="h6 l5 text-gray">*All prices are inclusive of VAT. </p>
                             <p class="h6 l5 text-gray">*A 12% additional service charge is added at the end of the experience to all food & beverage items. </p>
                             <p class="h6 l5 text-gray">Kindly note that reservations are not confirmed until the booking form is submitted and you have received a confirmation email. To ensure a smooth experience for all our guests, a maximum of 5 people per booking are allowed on a single table. </p>
@@ -69,9 +69,9 @@
                     <div id="accordion-item-8" class="accordion-item-body">
                         <div class="d-flex flex-column">
 <p class="h6 l5 text-gray">*Wine Pairing </p>
-<p class="h6 l5 text-gray">A carefully curated wine pairing is available to complement the flavours of each course of Chef’s Tasting menu. The wine pairing includes seven distinct wines that highlight the diverse terroir of Turkey and its rich tapestry. Priced at 6.500TL/per person.</p>
+<p class="h6 l5 text-gray">A carefully curated wine pairing is available to complement the flavours of each course of Chef’s Tasting menu. The wine pairing includes seven distinct wines that highlight the diverse terroir of Turkey and its rich tapestry. Priced at 7.900TL/per person.</p>
 <p class="h6 l5 text-gray">*Artisanal Pairing (No alcohol) </p>
-<p class="h6 l5 text-gray">A non-alcoholic Artisanal beverage pairing is also available to complement each course. This includes six non-alcoholic and homemade beverages created in harmony with the tasting menu. Priced at 2900TL/per person.</p>
+<p class="h6 l5 text-gray">A non-alcoholic Artisanal beverage pairing is also available to complement each course. This includes six non-alcoholic and homemade beverages created in harmony with the tasting menu. Priced at 3200TL/per person.</p>
 <p class="h6 l5 text-gray">*Signature & Barrel Aged Cocktails</p>
 <p class="h6 l5 text-gray">A creative selection of TURK homemade signature cocktails is available representing all major regions of the Turkish terroir. Each cocktail is crafted with distinct flavor profiles with strong emphasis on infusions. </p>
 <p class="h6 l5 text-gray">*Wine List </p>
