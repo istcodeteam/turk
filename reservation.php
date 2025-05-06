@@ -161,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-            <<!--    <div class="accordion-item">
+            <!--    <div class="accordion-item">
                     <a href="javascript:void(0);" data-target="#accordion-item-11" class="accordion-item-head">Booking of Chef's Table at Turk</a>
                     <div id="accordion-item-11" class="accordion-item-body">
                         <div class="d-flex flex-column">
