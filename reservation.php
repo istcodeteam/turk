@@ -97,7 +97,7 @@
                           <p class="h6 l5 text-gray">*Cancellation policy is in place to protect the business from no shows as well as to ensure only fresh ingredients are used on a daily basis for our guests. As a result, this helps us also avoid food waste, a fundamental action in line with the sustainability goals of TURK. </p>
 <p class="h6 l5 text-gray">*Cancellations are only valid if done via email at info@turkft.com or via phone at +90 530 051 83 04. </p>
 <p class="h6 l5 text-gray">*Cancellations made 72 hours (or less) before the reservation date, or no-shows, will not be eligible for a refund of the pre-payment.</p>
-<p class="h6 l5 text-gray">*Reducing the size of your group booking (e.g from 5 to 4 guests) within less than 72 hours notice, will incur a “No-show” fee of the amount of 4900 TL per person.  </p>
+<p class="h6 l5 text-gray">*Reducing the size of your group booking (e.g from 5 to 4 guests) within less than 72 hours notice, will incur a “No-show” fee of the amount of 5900 TL per person.  </p>
 <p class="h6 l5 text-gray">*Cancellations made 72 hours (or more) before the reservation date will receive a full refund of the  respective pre-payment. </p>
 <p class="h6 l5 text-gray">*Changing the reservation date after the cancellation deadline period (72 hours) constitutes a late  cancellation and therefore the pre-payment cannot be re-used at a later date.  </p>
 <p class="h6 l5 text-gray">*By submitting a reservation, you agree to the terms and conditions set out by the Cancellation Policy. </p>
@@ -161,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+            <<!--    <div class="accordion-item">
                     <a href="javascript:void(0);" data-target="#accordion-item-11" class="accordion-item-head">Booking of Chef's Table at Turk</a>
                     <div id="accordion-item-11" class="accordion-item-body">
                         <div class="d-flex flex-column">
@@ -170,7 +170,7 @@
 <p class="h6 l5 text-gray">*Single-person bookings are only available at Chef’s Table upon availability.</p>
                         </div>
                     </div>
-                </div>
+                </div>  -->
 
             </div>
         </div>
