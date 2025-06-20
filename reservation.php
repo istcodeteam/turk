@@ -157,7 +157,7 @@
                     <div id="accordion-item-9" class="accordion-item-body">
                         <div class="d-flex flex-column">
                           <p class="h6 l5 text-gray">  *Our guests are welcome to bring up to two bottles of wine, sparkling wine, sake, or hard liquor (75cl and  below) per party.  </p>
-  <p class="h6 l5 text-gray">*Our corkage fee is 3000TL / per 75cl bottle. </p>
+  <p class="h6 l5 text-gray">*Our corkage fee is 6000TL / per 75cl bottle. </p>
                         </div>
                     </div>
                 </div>
