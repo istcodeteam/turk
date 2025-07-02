@@ -38,7 +38,7 @@
         <div class="d-flex flex-row flex-wrap w-100 h-100">
             <div class="left-side d-flex flex-column align-items-start">
                 <h1 class="h11 font-500 l5 title mb-lg-8 mb-5 mb-sm-6">Reservation <br class="d-none d-lg-block"> Details</h1>
-                <a href="https://app.seatwise.co/turk-fatih-tutak/reservation" target="_blank" class="order-lg-2 order-3 btn btn-small btn-reservation d-flex flex-row align-items-center justify-content-between">Make Reservation <img class="ml-6 mlg-lg-8" src="./dist/img/icon-arrow-outward-white.svg" loading="lazy" width="24" height="24" alt=""></a>
+                <a href="https://rezervasyon.turkft.com/turk-fatih-tutak/reservation" target="_blank" class="order-lg-2 order-3 btn btn-small btn-reservation d-flex flex-row align-items-center justify-content-between">Make Reservation <img class="ml-6 mlg-lg-8" src="./dist/img/icon-arrow-outward-white.svg" loading="lazy" width="24" height="24" alt=""></a>
                 <div class="image-holder order-lg-3 order-2">
                     <img src="./dist/img/reservaiton-image.jpg" loading="lazy" alt="reservaiton-image">
                 </div>
