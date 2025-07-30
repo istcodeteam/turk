@@ -72,7 +72,7 @@
                                     <div class="content-box d-flex flex-column justify-content-between">
                                         <p class="h5 font-500">KNIFE</p>
                                         <div class="d-flex flex-row justify-content-between align-items-center">
-                                            <p class="h31 font-500">₺24.900</p>
+                                            <p class="h31 font-500">₺30.000</p>
                                             <a href="https://iyzi.link/AJsSHg" target="_blank" class="add-card"><img src="./dist/img/icon-card-white.svg" alt="add-card"></a>
                                         </div>
                                     </div>

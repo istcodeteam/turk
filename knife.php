@@ -77,14 +77,14 @@
                 <div class="d-flex flex-column">
                     <div class="d-flex flex-row justify-content-between align-items-center mb-6 mb-lg-0 mt-5">
                         <p class="h3 font-500 l20 mb-lg-8 mb-0">KNIFE</p>
-                        <p class="d-flex d-lg-none h31 font-500 l10 mb-0">₺24.900</p>
+                        <p class="d-flex d-lg-none h31 font-500 l10 mb-0">₺30.000</p>
                     </div>
                     <div class="d-flex flex-column mb-8">
                         <p class="h51 font-500 l5 mb-5">Explanation</p>
                         <p class="text-gray l5">The specialty knives in this box have been exclusively crafted for TURK by the Tüfekçi Karadayı, a legacy of the Binay family. The knives, designed by modernizing the classic hunter’s knife form, are made of stainless steel.</p>
                     </div>
                     <div class="d-flex flex-row justify-content-between align-items-center">
-                        <p class="d-none d-lg-flex h3 font-500 l10 mb-0">₺24.900</p>
+                        <p class="d-none d-lg-flex h3 font-500 l10 mb-0">₺30.000</p>
                         <a href="https://iyzi.link/AJsSHg" target="_blank" class="btn btn-small btn-brown px-8 d-flex flex-row align-items-center justify-content-center"><img class="mr-3" src="./dist/img/icon-card-white.svg" loading="lazy" alt=""> Buy Now</a>
                     </div>
                 </div>
